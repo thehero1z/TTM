@@ -927,6 +927,16 @@ video {
   top: 0px;
 }
 
+.after\:-bottom-20::after {
+  content: var(--tw-content);
+  bottom: -5rem;
+}
+
+.after\:right-0::after {
+  content: var(--tw-content);
+  right: 0px;
+}
+
 .after\:translate-x-2::after {
   content: var(--tw-content);
   --tw-translate-x: 0.5rem;
