@@ -698,6 +698,21 @@ video {
   background-color: rgb(13 148 136 / var(--tw-bg-opacity));
 }
 
+.bg-teal-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 246 228 / var(--tw-bg-opacity));
+}
+
+.bg-green-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
+}
+
+.bg-green-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -963,6 +978,36 @@ video {
   content: var(--tw-content);
   font-size: 8rem;
   line-height: 1;
+}
+
+.after\:text-white::after {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.after\:text-slate-500::after {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
+}
+
+.after\:text-slate-400::after {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity));
+}
+
+.after\:text-slate-300::after {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-text-opacity));
+}
+
+.after\:text-slate-200::after {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(226 232 240 / var(--tw-text-opacity));
 }
 
 .after\:content-\[\'\\201C\'\]::after {
