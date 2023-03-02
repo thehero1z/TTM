@@ -1157,6 +1157,10 @@ video {
     flex-direction: row;
   }
 
+  .sm\:justify-between {
+    justify-content: space-between;
+  }
+
   .sm\:scroll-smooth {
     scroll-behavior: smooth;
   }
