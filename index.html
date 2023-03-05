@@ -14,8 +14,9 @@
                 <a href="#hero">TTM 🚀 </a>
             </h1>
             <div>
-                <button id="hamburger-button" class="text-4xl cursor-pointer md:hidden origin-top ">
-                    &#9776;
+                <button id="hamburger-button" class="text-4xl cursor-pointer md:hidden origin-top relative w-8 h-8">
+                    <!-- &#9776; -->
+                    <div class="bg-white w-8 h-1 rounded absolute top-4 -mt-0.5  transition-all duration-500 before:content-[''] before:bg-white before:h-1 before:w-8 before:rounded before:absolute before:-translate-x-4 before:-translate-y-3 before:transition-all before:duration-500  after:content-[''] after:bg-white after:h-1 after:w-8 after:rounded after:absolute after:-translate-x-4 after:translate-y-3 after:transition-all after:duration-500 "></div>
                 </button>
                 <nav class="hidden md:block space-x-8 text-xl" aria-label="main">
                     <a href="#rockets" class="hover-opacity-90">Products</a>
@@ -25,9 +26,9 @@
                 </nav>
                </div>
         </section>
-        <section id="mobile-menu" class="absolute top-0 bg-black w-full text-5xl  flex-col justify-content-center origin-top animate-open-menu hidden">
+        <section id="mobile-menu" class="absolute top-68 bg-black w-full text-5xl  flex-col justify-content-center origin-top animate-open-menu hidden">
             <button class="text-8xl self-end px-6">
-                &times;
+                <!-- &times; -->
             </button>
             <nav class="flex flex-col min-h-screen items-center py-8 " aria-label="mobile">
                 <a href="#hero" class="w-full text-center py-6 hover:opacity-90"> Home</a>
