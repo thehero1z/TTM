@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./**/*.html','./**/*.js'],
+  content: ['./**/*.html','./dist/js/*.js'],
   theme: {
     extend: {
       screens: {
@@ -9,14 +9,14 @@ module.exports = {
       },
       keyframes: {
         'open-menu': { 
-          '0%': {'transform: 'scaleY(0)'},
-          '80%': {'transform: 'scaleY(1.2)'},
-          '100%': {'transform: 'scaleY(1)'},
+          '0%': {'transform': 'scaleY(0)'},
+          '80%': {'transform': 'scaleY(1.2)'},
+          '100%':{'transform': 'scaleY(1)'},
         },
       },
       animation: {
-        'open-menu': 'open-menu 0.5s ease-in-out forward',
-      }
+        'open-menu':'open-menu 0.4s ease-in-out forwards',
+      },
     },
   },
   plugins: [],
