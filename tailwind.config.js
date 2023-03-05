@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./**/*.html'],
+  content: ['./**/*.html','./**/*.js'],
   theme: {
     extend: {
       screens: {
@@ -15,7 +15,7 @@ module.exports = {
         },
       },
       animation: {
-        'open-menu': 'open-menu 0.5s ease-in-out forwards',
+        'open-menu': 'open-menu 0.5s ease-in-out forward',
       }
     },
   },
